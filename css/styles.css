@@ -1,0 +1,362 @@
+ /* *{
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  
+  background: rgb(30, 32, 43) ;
+}  */
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+.navbar{
+
+  background-color: #1e202b;
+} 
+.logo-type{
+
+  display: inline-block;
+    vertical-align: middle;
+}
+#temoo{
+  padding:50px 20px 50px 0px ;
+}
+
+
+.site-title{
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-size: 1.1428571429em;
+  color: white;
+
+}
+.site-title h1{
+  font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+.site-description{
+  font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+#left{
+margin-left: 25%;
+padding: 50px 0px 50px;
+vertical-align: middle;
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+ .logo {
+  margin-right: 10px;
+}
+
+img {
+  border: 0;
+}
+
+
+#left .navbar-nav .nav-item a {
+  padding: 3px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-weight: 400;
+  color: white;
+
+
+}
+
+#left .navbar-nav .nav-item a:hover {
+  border-color: #009ad8;
+  color:#009ad8;
+}
+/* end navbar  */
+
+/* url start */
+.hero {
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 350px;
+}
+.find-location {
+  position: relative;
+  margin-bottom: 70px;
+}
+.find-location input[type="text"] {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+}
+form input, form textarea, form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+button, input {
+  line-height: normal;
+}
+.find-location input[type="button"] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+}
+form input[type="button"]{
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+html input[type="button"]{
+  -webkit-appearance:button;
+    cursor: pointer;
+}
+/* end url */
+.forecast-container {
+  width: 100%;
+  background: #323544;
+  display: flex
+;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+.forecast-container .forecast {
+  width: 33.33%;
+}
+
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.forecast-container .forecast.today .forecast-header .day {
+  float: left;
+}
+.forecast-container .forecast.today .forecast-header .date {
+  float: right;
+}
+.forecast-container .forecast.today .forecast-header:after {
+  content: " ";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+}
+.forecast-container .forecast .forecast-header {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.forecast-container .forecast.today .forecast-content {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.forecast-container .forecast .forecast-content {
+  padding: 50px 20px 10px;
+  text-align: center;
+}
+.forecast-container .forecast.today .forecast-content {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.forecast-container .forecast.today .location {
+  font-size: 18px;
+  font-size: 1.2857142857em;
+  font-weight: 400;
+}
+.forecast-container .forecast .forecast-content .degree {
+  font-size: 24px;
+  font-size: 1.7142857143em;
+  color: white;
+  font-weight: 700;
+}
+.forecast-container .forecast.today .degree .num {
+  font-size: 90px;
+  font-size: 6.4285714286rem;
+  margin-right: 30px;
+}
+.forecast-container .forecast.today .degree .num {
+  display: inline-block;
+  vertical-align: middle;
+}
+sup {
+  top: -0.5em;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.forecast-container .forecast.today .degree .forecast-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.forecast-container .forecast .forecast-content .forecast-icon {
+  margin-bottom: 20px;
+}
+.forecast-container .forecast .forecast-icon {
+  height: 50px;
+}
+img {
+  border: 0;
+}
+.custom {
+  color: #009ad8;
+  margin: 20px 0;
+}
+.forecast-container .forecast.today span {
+  margin-right: 20px;
+}
+.forecast-container .forecast.today span img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.forecast-container .forecast:nth-child(even) {
+  background-color: #262936;
+}
+.forecast-container .forecast {
+  width: 33.33%;
+}
+.forecast-container .forecast .forecast-header {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.forecast-container .forecast .forecast-content {
+  padding: 50px 20px 10px;
+  text-align: center;
+}
+/* end hero */
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+form input, form textarea, form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+button, input {
+  line-height: normal;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+.site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+.button, form input[type="submit"], form input[type="button"], form button, form input[type="reset"] {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+form input, form textarea, form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+.row:after {
+  content: " ";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+}
+small{
+  color: #bfc1c8;
+}
+.colophon
+{color: #bfc1c8; }
+
+.site-footer .social-links a {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 55%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+ 
+}
+a:hover {
+  text-decoration: none;
+  color: #009ad8;
+}
+a {
+  background: transparent;
+}
+
